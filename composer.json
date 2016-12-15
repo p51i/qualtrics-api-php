@@ -1,10 +1,10 @@
 {
-  "name": "UI-Research/qualtrics-api-php",
+  "name": "p51i/qualtrics-api-php",
   "version": "1.0.0-alpha",
   "type": "library",
   "description": "PHP library for v3 of the Qualtrics API",
   "keywords": ["qualtrics", "survey"],
-  "homepage": "https://github.com/UI-Research/qualtrics-api-php",
+  "homepage": "https://github.com/p51i/qualtrics-api-php",
   "require": {
     "php": ">=5.5.0",
     "guzzlehttp/guzzle": "6.2.1"
