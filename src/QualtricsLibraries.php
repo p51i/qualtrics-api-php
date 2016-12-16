@@ -16,7 +16,7 @@ class QualtricsLibraries extends Qualtrics {
 
 
   /**
-   * Gets a report summary for the authenticated account.
+   * Gets a library summary for the authenticated account.
    * @param string $library_id
    *   The ID of the library.
    * @param array $parameters
@@ -31,11 +31,11 @@ class QualtricsLibraries extends Qualtrics {
       'libraryId' => $library_id,
     ];
 
-    return $this->request('GET', '/libraries/{libraryId}', $tokens, $parameters);
+    return $this->request('GET', '/libraries/{libraryId}/messages', $tokens, $parameters);
   }
 
   /**
-   * Gets a report summary for a specific campaign.
+   * Gets a library summary for a specific campaign.
    *
    * @param string $library_id
    *   The ID of the campaign.
