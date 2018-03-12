@@ -7,7 +7,7 @@
   "homepage": "https://github.com/p51i/qualtrics-api-php",
   "require": {
     "php": ">=5.5.0",
-    "guzzlehttp/guzzle": "6.2.1"
+    "guzzlehttp/guzzle": "^6.3.0"
   },
   "require-dev": {
     "phpunit/phpunit": "4.8.21"
